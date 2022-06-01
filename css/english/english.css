@@ -1,0 +1,34 @@
+.english__container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.english__title{
+  color:white;
+  font-size: 50px;
+  align-self: center;
+  margin: 0;
+}
+.english__subtitle{
+  color:white;
+  font-size: 32px;
+  position: relative;
+  padding: 0;
+  max-width: 500px;
+  width: 100%;
+}
+.english__span{
+  color: rgb(233, 126, 26);
+}
+@media (max-width: 730px){
+  .english__title{
+    font-size: 32px;
+  }
+  .english__subtitle{
+    font-size: 20px;
+    text-align: center;
+  }
+  .skills__container{
+    padding-top: 10px;
+  }
+}

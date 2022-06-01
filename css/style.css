@@ -1,20 +1,22 @@
-@import "./header/header.css";
-@import "./title/title.css";
-*{
-  
+@import './header/header.css';
+@import './title/title.css';
+@import './contact/contact.css';
+@import './summary/summary.css';
+@import './skills/skills.css';
+@import './code/code.css';
+@import './english/english.css';
+@import './footer/footer.css';
+* {
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
-.body{
+.body {
   background-color: rgb(89, 91, 94);
 }
 
-.main{
-  
-}
-.container{
+.container {
   max-width: 1240px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
