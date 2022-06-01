@@ -1,0 +1,20 @@
+@import "./header/header.css";
+@import "./title/title.css";
+*{
+  
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.body{
+  background-color: rgb(89, 91, 94);
+}
+
+.main{
+  
+}
+.container{
+  max-width: 1240px;
+    margin: 0 auto;
+}
