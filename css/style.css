@@ -13,7 +13,8 @@ html {
   scroll-behavior: smooth;
 }
 .body {
-  background-color: rgb(89, 91, 94);
+  background-color: rgb(89 91 94 / 68%);
+  font-family: 'Roboto',Impact,  'Arial Narrow Bold',sans-serif;
 }
 
 .container {
