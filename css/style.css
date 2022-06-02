@@ -1,0 +1,23 @@
+@import './header/header.css';
+@import './title/title.css';
+@import './contact/contact.css';
+@import './summary/summary.css';
+@import './skills/skills.css';
+@import './code/code.css';
+@import './english/english.css';
+@import './footer/footer.css';
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  background-color: rgb(89 91 94 / 68%);
+  font-family: 'Roboto',Impact,  'Arial Narrow Bold',sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
