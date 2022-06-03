@@ -6,6 +6,8 @@
 @import './code/code.css';
 @import './english/english.css';
 @import './footer/footer.css';
+@import './work/work.css';
+@import './obrozovanie/obrozovanie.css';
 * {
   box-sizing: border-box;
 }
