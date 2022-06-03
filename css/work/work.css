@@ -1,0 +1,49 @@
+.work__container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  border-top: dotted 5px rgb(212 199 19 / 88%);
+}
+.work__title{
+  align-self:center;
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  display: block;
+}
+.work__subtitle{
+  margin: 0;
+  display: block;
+  max-width: 400px;
+  color: white;
+  font-size: 20px;
+}
+.work__link{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  animation: alin 2s infinite;
+}
+@keyframes alin{
+  0%{
+
+  }
+  100%{
+    text-shadow: #fc0 1px 0 10px;
+  }
+}
+
+@media (max-width: 730px){
+  .work__container{
+   padding-top: 0;
+   
+  }
+  .work__title{
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+}
