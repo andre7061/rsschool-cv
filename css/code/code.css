@@ -1,0 +1,33 @@
+.code__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: dotted 5px rgb(212 199 19 / 88%);
+}
+.code__title{
+  color:white;
+  font-size: 50px;
+  align-self: center;
+  margin: 0;
+}
+.code__pre{
+  display: block;
+  background-color: aliceblue;
+  
+  max-width: 500px;
+  width: 100%;
+  border: solid rgb(212 199 19 / 88%)4px;
+  color:rgb(212 199 19 / 88%);
+  font-size: 20px;
+  text-shadow: #fc0 1px 0 10px;
+}
+@media (max-width: 730px){
+  .code__title{
+    font-size: 32px;
+    padding-top: 10px;
+  }
+  .code__pre{
+    font-size: 12px;
+  }
+  
+}

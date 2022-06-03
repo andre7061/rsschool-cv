@@ -1,0 +1,35 @@
+.obrozovanie__container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: dotted 5px rgb(212 199 19 / 88%);
+}
+.obrozovanie__title{
+  color:white;
+  font-size: 50px;
+  align-self: center;
+  margin: 0;
+}
+.Obrozovanie__subtitle{
+  color:white;
+  font-size: 32px;
+  position: relative;
+  padding: 0;
+  max-width: 500px;
+  width: 100%;
+}
+.Obrozovanie__span{
+  color: rgb(212 199 19 / 88%);
+}
+@media (max-width: 730px){
+  .obrozovanie__title{
+    font-size: 32px;
+  }
+  .Obrozovanie__subtitle{
+    font-size: 20px;
+    text-align: center;
+  }
+  .obrozovanie__container{
+    padding-top: 10px;
+  }
+}
