@@ -97,10 +97,18 @@
       </div>
     </section>
     <section class="code" id="code">
-      <h2 class="code__title">Code</h2>
-      <p><code class="code__pre">
-
-       </code></p>
+      <div class="code__container container">
+        <h2 class="code__title">Code</h2>
+      <pre class="code__pre">
+        const http = require('http')
+        const server =http.createServer((req,res)=>{
+         res.write('Hello Node')
+         res.end()
+        })
+        server.listen(3003)
+      </pre>
+      </div>
+      
     </section>
     <section class="english" id="english">
       <div class="container english__container">
